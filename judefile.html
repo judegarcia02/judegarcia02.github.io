@@ -41,3 +41,74 @@ function openFullscreen() {
 </script>
 </body>
 </html>
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+.row,
+.row > .column {
+  padding: 8px;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+<div class="row">
+  <div class="column">
+    <div class="content">
+     <source src="i love you.mp4" type="video/mp4"> style="width:100%">
+      <h3>i love you </h3>
+      <p>i love you is a dedicated piece to my mom. this is a dream captured in her handwritting.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</body>
+</html>
